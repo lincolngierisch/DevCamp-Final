@@ -1,0 +1,38 @@
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section > .left-column {
+    padding-left: 80px;
+}
+
+.main-section > .left-column > h1{
+    color: #ffffff;
+}
+
+.main-section > .left-column > .left-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+    padding-top: 20px;
+}
+
+.main-section > .right-column {
+    padding-left: 290px;
+    padding-top: 60px;
+}
+
+.main-section > .right-column > .right-text {
+    color: #ffffff;
+    font-size: 1.5em;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.main-section > .right-column > .right-image img{
+    width: 700px;
+    height: 100%;
+    padding-top: 20px;
+}

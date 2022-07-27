@@ -1,0 +1,16 @@
+.footer {
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > .footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #fafafa;
+    width: 478px;
+    height: 98px;
+    border: 2px solid #969696;
+}

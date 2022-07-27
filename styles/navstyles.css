@@ -1,0 +1,57 @@
+.navigation-wrapper {
+    height: 80px;
+    background-color: #000000;
+    color: #ffffff;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.navigation-wrapper > .logo-wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.navigation-wrapper > .logo-wrapper img {
+    width: 250px;
+    height: 100%;
+}
+
+.navigation-wrapper > .center-column {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    font-size: 1.5em;
+    padding-right: 60px;
+    font-weight: 900;
+}
+
+.navigation-wrapper > .center-column > .title-wrapper {
+    color: #d6c422
+}
+
+.navigation-wrapper > .center-column > .text-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .center-column > .text-wrapper > .options-wrapper > .spark-angle {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .buttons-wrapper {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8em;
+    align-items: center;
+}
+
+.navigation-wrapper > .buttons-wrapper > .button-wrapper > .create-group i {
+    color: #00ee66;
+}
